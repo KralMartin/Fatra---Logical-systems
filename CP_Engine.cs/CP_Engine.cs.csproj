@@ -139,20 +139,20 @@
     <Compile Include="WorkPlace.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\ContextMenu_Mono\ContextMenu_Mono.csproj">
-      <Project>{b89616ed-c5c3-4c79-b028-bdf0c380082b}</Project>
-      <Name>ContextMenu_Mono</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\Utilties_Mono\Utilties_Mono.csproj">
-      <Project>{59cd0779-9d38-4945-a1d2-dbeeeb933121}</Project>
-      <Name>Utilties_Mono</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ContextMenu_Mono\ContextMenu_Mono.csproj">
+      <Project>{b89616ed-c5c3-4c79-b028-bdf0c380082b}</Project>
+      <Name>ContextMenu_Mono</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utilties_Mono\Utilties_Mono.csproj">
+      <Project>{59cd0779-9d38-4945-a1d2-dbeeeb933121}</Project>
+      <Name>Utilties_Mono</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
